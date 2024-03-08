@@ -27,6 +27,8 @@ Hospital readmissions among diabetic patients increase healthcare costs and indi
 
 - `poetry.lock` & `pyproject.toml`: These files manage project dependencies and ensure reproducibility through the Poetry dependency management tool.
 
+- `.gitattributes`: This file is part of implementing Git Large File Storage (LFS) for managing large data files efficiently. It specifies which files are tracked by Git LFS, primarily used here for the processed data that was saved during the data processing steps. Utilizing Git LFS helps in keeping our repository size manageable while ensuring large datasets are easily accessible.
+
 ## Getting Started
 
 To explore the complete machine learning pipeline from data preprocessing to model evaluation in one go, check out the comprehensive notebook: [Complete ML Pipeline for Diabetic Readmission Prediction](notebooks/00-Complete_ML_Pipeline_for_Diabetic_Readmission_Prediction.ipynb). This notebook provides a step-by-step guide through the entire process, making it an excellent starting point for understanding the project's approach.
@@ -49,4 +51,5 @@ Your feedback is highly appreciated! If you have suggestions or would like to co
 For any questions or collaboration inquiries, please contact:
 
 - [Diego Leon](mailto:diego.leon07@outlook.com)
+
 
